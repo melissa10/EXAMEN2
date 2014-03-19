@@ -3,6 +3,15 @@ import java.util.Scanner;
 public class ejercicio1 {
 
 	private static Scanner scanner;
+	
+	static boolean soniguales(int numero1, int numero2){
+	if (numero1==numero2){	
+		
+	return true;
+	
+	}else
+	return false;		
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
